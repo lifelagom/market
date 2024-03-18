@@ -3,8 +3,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Market implements QueueBehaviour, MarketBehaviour{
-    List<Actor> listMarket = new ArrayList<Actor>();
-    List<Actor> listQueue = new LinkedList<Actor>();
+    private List<Actor> listMarket = new ArrayList<Actor>();
+    private List<Actor> listQueue = new LinkedList<Actor>();
     
     @Override
     public void acceptToMarket(Actor actor) {
